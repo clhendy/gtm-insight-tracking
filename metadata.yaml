@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://app.insight-tracking.com"
-documentation: "https://creativeClh@bitbucket.org/northfarmlocos/gtm-insight-tracking/blob/master/README.md"
+documentation: "https://github.com/clhendy/gtm-insight-tracking/blob/master/README.md"
 versions:
   - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
     changeNotes: Initial Version
