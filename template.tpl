@@ -92,7 +92,7 @@ ___WEB_PERMISSIONS___
               },
               {
                 "type": 1,
-                "string": "https://app.insight-tracking.com/trk.js?*"
+                "string": "https://intrb.com/trk.js?*"
               }
             ]
           }
