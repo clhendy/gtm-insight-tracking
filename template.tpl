@@ -44,7 +44,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 const orgGuid = data.orgGuid;
 const injectScript = require('injectScript');
-const url = 'https://app.insight-tracking.com/trk.js?'+ orgGuid;
+const url = 'https://intrb.com/trk.js?'+ orgGuid;
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
 const log = require('logToConsole');
 log('data =', data);
