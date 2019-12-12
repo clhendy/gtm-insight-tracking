@@ -44,8 +44,8 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 const orgGuid = data.orgGuid;
 const injectScript = require('injectScript');
-const url = 'https://intrb.com/trk.js?'+ orgGuid;
-injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
+const url = 'https://www.intrb.com/trk.js?'+ orgGuid;
+injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 const log = require('logToConsole');
 log('data =', data);
 
@@ -90,6 +90,10 @@ ___WEB_PERMISSIONS___
                 "type": 1,
                 "string": "https://csi-backend.herokuapp.com/trk.js?*"
               },
+              {
+                "type": 1,
+                "string": "https://www.intrb.com/trk.js?*"
+              }
               {
                 "type": 1,
                 "string": "https://intrb.com/trk.js?*"
