@@ -16,9 +16,11 @@ homepage: "https://app.insight-tracking.com"
 documentation: "https://github.com/clhendy/gtm-insight-tracking/blob/master/README.md"
 versions:
 # Latest version
-  - sha: 705ab4612888b7c9115b18efcf71b94647ef2b4d
+  - sha: 9245d24c1cf79263fb108045d25adbef9a7df751
     changeNotes: Update to live URL for prod
 # Older versions  
+  - sha: 4849e0da7141a3e3eba859c6512b529ed3457bfc
+    changeNotes: |5
   - sha: 4849e0da7141a3e3eba859c6512b529ed3457bfc
     changeNotes: |4
   - sha: 9e4b41f1d2ec3462df6440ac7bc26e096e524f0c
