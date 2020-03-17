@@ -93,10 +93,14 @@ ___WEB_PERMISSIONS___
               {
                 "type": 1,
                 "string": "https://www.intrb.com/trk.js?*"
-              }
+              },
               {
                 "type": 1,
                 "string": "https://intrb.com/trk.js?*"
+              },
+              {
+                "type": 1,
+                "string": "https://intrbe.herokuapp.com/trk.js?*"
               }
             ]
           }
